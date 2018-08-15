@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.bg{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url("../img/bg1.jpg")no-repeat center;
+    z-index: -999;
+}
+aside{
+    width: 54px;
+    height: 216px;
+    background: #75cb5d;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+}
+aside>div{
+    width: 54px;
+    height: 52px;
+    border-top: 1px solid #6b4;
+    border-bottom: 1px solid #6b4;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background: rgba(255,255,255,0.9);
+}
+nav{
+    padding: 0 40px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>a{
+    display: block;
+    width: 167px;
+    height: 56px;
+}
+.nav-left{
+    width: 167px;
+    height: 56px;
+    background: url("../img/logo.png")no-repeat center/100%;
+}
+.nav-right{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-right>li{
+    height: 100%;
+}
+.nav-right>li>a{
+    font-size: 20px;
+    line-height: 80px;
+    margin: 30px;
+    padding: 25px 0;
+    color: #111111;
+}
+.nav-right>li>a:hover{
+    border-bottom: 3px solid #000;
+}
+section{
+    width: 100%;
+    margin-top: 600px;
+}
+.main_1{
+    background: #fafafa;
+    padding: 0 30px 80px 30px;
+    overflow: hidden;
+    text-align: center;
+}
+h1{
+    font-size: 28px;
+    font-weight: normal;
+    color: #111;
+    margin-top: 68px;
+}
+h6{
+    font-weight: normal;
+    margin: 10px auto;
+    color: #888;
+}
+.main_1>span{
+    border-top: 3px solid greenyellow;
+}
+.logo_2{
+    width: 209px;
+    height: 62px;
+    background: url("../img/logo01.png")no-repeat center/100%;
+    margin: 10px auto 38px;
+}
+.main_1>ul{
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.main_1>ul>li{
+    width: 25%;
+    padding: 15px 10px;
+}
+.main_1>ul>li>.iconfont{
+    font-size: 70px;
+}
+.main_1>ul>li>h2{
+    padding-top: 15px;
+    color: #6e6;
+    font-weight: normal;
+}
+.main_1>ul>li>span{
+    display: block;
+    padding: 10px 0 30px 0;
+}
+.main_2{
+    padding: 30px 5px 10px 5px;
+    background: #fff;
+}
+.main_2>ul{
+    padding: 0 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.main_2>ul>li{
+    width: 234px;
+    height: 300px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border: 1px solid rgba(0,0,0,0.2);
+    transition: all 0.5s;
+}
+.main_2>ul>li:nth-child(4n){
+    margin-right: 0;
+}
+.main_2>ul>li>a{
+    color: #222;
+    font-size: 16px;
+    font-weight: 500;
+}
+.img{
+    display: block;
+    width: 234px;
+    height: 234px;
+    background: url("../img/boluo.jpg")no-repeat center/100%;
+}
+.main_2>ul>li:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 5px 30px 3px rgba(0,0,0,0.2);
+    border:1px solid rgba(0,0,0,0);
+}
+.main_2>ul>li:hover a{
+    color: #6d6;
+}
+.main_3{
+    position: relative;
+    background: #fff;
+    padding-bottom: 400px;
+}
+.main_3_bg{
+    width: 100%;
+    height: 520px;
+    background: url("../img/bg2.jpg");
+}
+.more{
+    width: 1070px;
+    height: 631px;
+    border: 15px solid rgba(255,255,255,0.3);
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.more_1{
+    width: 100%;
+    height: 75%;
+    background: #71ba13;
+    color: #fff;
+    text-align: center;
+    padding-top: 90px;
+}
+h5{
+    color: #fff;
+}
+.more_1>h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 10px auto 30px;
+}
+.more_1>span{
+    border-top: 2px solid #fff;
+}
+.more_1>a{
+    display: block;
+    width: 176px;
+    height: 43px;
+    background: #fefefe;
+    border-radius: 20px;
+    margin: 20px auto;
+    font-size: 24px;
+    color: #71ba13;
+    line-height: 43px;
+    transition: all .3s;
+}
+.more_1>a:hover{
+    background: #222;
+    color: #fff;
+}
