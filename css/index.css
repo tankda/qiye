@@ -318,7 +318,6 @@ h5{
 }
 .main_4>div{
     height: 447px;
-
     padding: 0 40px;
     position: relative;
 }
@@ -334,6 +333,40 @@ h5{
     position: absolute;
     right: 40px;
     top: 30%;
+}
+.main_4>div:hover .jump{
+    animation: jump 1.2s forwards cubic-bezier(0.31, 0.88, 0.38, 1.01);
+}
+.main_4>div:hover .jump1{
+    animation: jump 1.2s 0.4s forwards cubic-bezier(0.31, 0.88, 0.38, 1.01);
+}
+.main_4>div:hover .jump2{
+    animation: jump 1.2s 0.2s forwards cubic-bezier(0.31, 0.88, 0.38, 1.01);
+}
+.jump{
+    width: 40px;
+    height: 40px;
+    background: url("../img/jump1.png")no-repeat center;
+    position: absolute;
+    right: 140px;
+    top: 30%;
+}
+.jump1{
+    background: url("../img/jump2.png")no-repeat center;
+    right: 200px;
+}
+.jump2{
+    background: url("../img/jump3.png")no-repeat center;
+    right: 80px;
+}
+@keyframes jump {
+    0%{}
+    50%{
+        transform: translateY(-55px);
+    }
+    100%{
+        transform: translateY(-40px);
+    }
 }
 .main_4_right>h1{
     color: #fff;
