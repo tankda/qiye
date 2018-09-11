@@ -139,77 +139,84 @@ h2{
     font-size: 16px;
     color: #111;
 }
-.page_pr_right{
+.page_pr_left_list>li:hover a{
+    color: #5ec04f;
+}
+
+
+/*分割线     分割线          分割线          分割线          分割线*/
+.new-right{
     width: 75%;
     height: auto;
     border: 1px solid #999;
     box-sizing: border-box;
-    padding: 20px 0 80px 0;
+    padding: 20px 20px 12px 20px;
 }
-.page_pr_right_main{
-    width: 90%;
-    height: 100%;
-    padding: 0 5%;
-}
-h3{
-    height: 50px;
-    display: block;
-    font-size: 26px;
-    line-height: 40px;
-    font-weight: normal;
-}
-.page_pr_right_main div{
-    height: 40px;
+.new-right>ul{
     width: 100%;
-    border-top: 1px solid #bbb;
-    border-bottom: 1px solid #bbb;
-    line-height: 40px;
-}
-.page_pr_right_main>div>span{
-    margin-right: 88px;
-    font-size: 14px;
-    font-weight: normal;
-    color: #00f;
-}
-.page_pr_right_main>img{
-    width: 400px;
-    height: 400px;
-    display: block;
-    margin: 12px auto;
-}
-p{
-    display: block;
     height: auto;
-    font-size: 16px;
-    line-height: 28px;
-    color: #333;
+    padding: 10px 0 20px;
+    box-sizing: border-box;
 }
-p:first-line{
-    font-weight:600;
-    font-size: 16px;
-    line-height: 32px;
-}
-button{
-    width: 108px;
-    height: 38px;
-    background: #121;
-    color: #fff;
-    margin: 30px auto 25px;
-    outline: none;
-    border: 0;
-}
-button:hover{
-    cursor: pointer;
-    opacity: 0.8;
-}
-.page_pr_right_main>div>img{
-    width: 16px;
-    height: 16px;
-}
-.share{
+.new-right>ul>li{
     width: 100%;
-    height: 30px;
-    border-bottom: 1px solid #999;
-    border-top: 1px solid #999;
+    height: 112px;
+    border-bottom: 1px dotted #aaa;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+}
+.new-right>ul>li:first-child{
+    border-top: 0;
+}
+.new-right>ul>li>a>img{
+    width: 150px;
+    height: 92px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    display: block;
+    float: left;
+}
+.new-right-name{
+    width: 705px;
+    height: 112px;
+    float: left;
+}
+.new-right-name>a{
+    font-size: 16px;
+    color: #777;
+}
+.new-right-name>a:hover{
+    color: #4daa43;
+}
+.new-right-name>span{
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.new-right-name>p{
+    font-size: 12px;
+    color: #aaa;
+    display: inline;
+}
 
+footer{
+    width: 100%;
+    height: 18px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+footer>a{
+    font-size: 12px;
+    line-height: 16px;
+    color: #aaa;
+    display: block;
+    height: 18px;
+    margin: 0 3px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 0 6px;
+}
+.Ahot{
+    background: #ccc;
+    color: #fff;
 }

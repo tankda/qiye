@@ -14,6 +14,9 @@
     background: url("../img/bg1.jpg")no-repeat center;
     z-index: -999;
 }
+.bg1{
+    background: url("../img/banner.jpg")no-repeat center;
+}
 aside{
     width: 54px;
     height: 216px;
@@ -125,14 +128,14 @@ nav>a{
     height: 100%;
 }
 .nav-right>li>a{
-    font-size: 20px;
+    font-size: 16px;
     line-height: 60px;
     margin: 30px;
     padding: 13px 0;
     color: #111111;
 }
 .nav-right>li>a:hover{
-    border-bottom: 3px solid #000;
+    border-bottom: 2px solid #000;
 }
 section{
     width: 100%;
@@ -207,7 +210,7 @@ h6{
 }
 .main_1>ul>li>h2{
     padding-top: 15px;
-    color: #6e6;
+    color: #666;
     font-weight: normal;
 }
 .main_1>ul>li>span{
@@ -419,9 +422,9 @@ input{
     padding: 16px;
     margin: 16px 0;
 }
-input:last-child{
+textarea{
+    resize: vertical;
     width: 100%;
-    resize: both;
 }
 .buttom{
     width: 176px;
